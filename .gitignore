@@ -1,0 +1,49 @@
+# Ignoring Files from contract_blockchain
+# node_modules
+contract_blockchain/node_modules
+contract_blockchain/.idea
+#artifacts
+contract_blockchain/artifacts
+#cache
+contract_blockchain/cache
+# Deployment
+contract_blockchain/deployments
+#secrets
+contract_blockchain/.secrets.json
+# Ignoring Package json
+contract_blockchain/package-lock.json
+
+
+# Ignoring Files from frontend_Application
+# Logs
+frontend_Application/logs
+frontend_Application/*.log
+frontend_Application/npm-debug.log*
+frontend_Application/yarn-debug.log*
+frontend_Application/yarn-error.log*
+frontend_Application/pnpm-debug.log*
+frontend_Application/lerna-debug.log*
+
+frontend_Application/node_modules
+frontend_Application/.DS_Store
+frontend_Application/dist
+frontend_Application/dist-ssr
+frontend_Application/coverage
+frontend_Application/*.local
+
+frontend_Application/cypress/videos/
+frontend_Application/cypress/screenshots/
+
+# Editor directories and files
+frontend_Application/.vscode/*
+frontend_Application/!.vscode/extensions.json
+frontend_Application/.idea
+frontend_Application/*.suo
+frontend_Application/*.ntvs*
+frontend_Application/*.njsproj
+frontend_Application/*.sln
+frontend_Application/*.sw?
+
+# Secret folder
+frontend_Application/.secrets.ts
+
